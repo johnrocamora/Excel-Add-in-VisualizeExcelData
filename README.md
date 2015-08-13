@@ -96,6 +96,6 @@ If the add-in starts with a blank document instead of the one shown in Figure 1,
 Related content
 
 
-* [Build apps for Office](http://msdn.microsoft.com/en-us/library/jj220060.aspx)
+* [Build an add-in for Office](http://msdn.microsoft.com/en-us/library/jj220060.aspx)
 * [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/en-us/library/fp123511.aspx)
 
