@@ -82,7 +82,7 @@ Figure 5. The tiled populations view.
 
 ![Figure 5](/description/CG_XLDataVis_fig05.gif)
 
-
+<a name="troubleshooting"></a>
 **Troubleshooting**
 
 If the add-in starts with a blank document instead of the one shown in Figure 1, ensure that the StartAction property of the ExcelDataVisualization project is set to PopulationVisualization.xlsx and not just to Excel.
