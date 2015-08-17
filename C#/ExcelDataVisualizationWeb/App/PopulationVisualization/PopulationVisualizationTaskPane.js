@@ -10,6 +10,8 @@
         // This function is run when the app is ready to start interacting with the host application
         // It ensures the DOM is ready before adding click handlers to buttons binding to a named cell
         $(document).ready(function () {
+
+            checkSampleDocLoaded();
             // Ready the app object so that you can use its notification method using the 'app.showNotification' method
             app.initialize();
             // Wire up the click events of the two buttons in the PopulationVisualizationTaskPane.html page.
@@ -74,6 +76,26 @@ function tile() {
                     app.showNotification('Status', 'Visual Style successfully set to Tiled!');
                 }
             });
+        }
+    });
+}
+function checkSampleDocLoaded() {
+
+    //Get the URL of the current file.
+    Office.context.document.getFilePropertiesAsync(function (asyncResult) {
+        var fileUrl = asyncResult.value.url;
+
+        // Find the warning section on the page. We'll hide or show it
+        // depending on whether the sample doc is loaded or not. 
+        var elem = document.getElementById('warning');
+
+        // Note: If you change the name of the sample doc in the InvoiceManager.csproj, don't
+        // forget to update it here 
+        if (fileUrl == "" || fileUrl.indexOf("PopulationVisualization.xlsx") == -1) {
+            elem.style.display = 'block'; // show warning
+        }
+        else {
+            elem.style.display = 'none'; // hide warning
         }
     });
 }
