@@ -68,7 +68,6 @@
     <Content Include="App\PopulationVisualization\PopulationVisualizationTaskPane.js" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
-    <Content Include="Content\Office.css" />
     <Content Include="fonts\office365icons.svg" />
     <Content Include="Images\Close.png" />
     <Content Include="packages.config" />
