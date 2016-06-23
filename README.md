@@ -5,11 +5,11 @@ The Office sample includes a task pane add-in and a content add-in. It also incl
 
 The PopulationVisualization.xlsx file is set as the StartAction property of the add-in for Office. The workbook has a named cell called VisualStyle (cell B2), and a named table called PopulationTable (cells A6:B16). The following screen shots shows how the document and the add-in will appear after you start the solution. Figure 1 shows the workbook opened with the content add-in displayed.
 
-![Figure 1](/description/CG_XLDataVis_fig01.gif)
+![Visualization in content add-in](/description/CG_XLDataVis_fig01.gif "Figure 1. The content add-in displaying the visualization.")
 
 Figure 2 shows the task pane add-in UI.
 
-![Figure 2](/description/CG_XLDataVis_fig02.gif)
+![Task pane add-in UI](/description/CG_XLDataVis_fig02.gif "Figure 2. The task pane add-in with two buttons that control the view.")
 
 
 **The sample shows:**
@@ -64,7 +64,7 @@ Figure 3 shows that the code has successfully created a binding to the named cel
 
 Figure 3. The task pane UI showing that the binding was successful.
 
-![Figure 3](/description/CG_XLDataVis_fig03.gif)
+![Task pane add-in showing status](/description/CG_XLDataVis_fig03.gif "Figure 3. The status bar in the task pane add-in showing a success message.")
 
 The View stacked populations button calls code that takes the data in the data table and uses it to build the stacked visualization. In this case, squares representing each country's population have been overlaid on each other. When the user pauses the mouse pointer on a specific shade of green (representing a country), the tooltip provides the name of the country and the population value. Also note that the task pane includes a message that the visual style has been set successfully.
 
@@ -72,7 +72,7 @@ Figure 4 shows how the content pane appears when the View stacked populations bu
 
 Figure 4. The stacked populations view.
 
-![Figure 4](/description/CG_XLDataVis_fig04.gif)
+![Stacked populations view](/description/CG_XLDataVis_fig04.gif "Figure 4. The stacked populations view with a callout showing the population of the USA.")
 
 Alternatively, you could choose the View tiled populations. When you view the population in a tiled visualization, the task pane UI looks the same as when you choose the stacked visualization, but the content add-in changes to show the various populations in tiles. In this case, squares representing each country's population have been displayed in a jigsaw-like manner. When the user pauses the mouse pointer on a specific shade of green (representing a country), the tooltip provides the name of the country and the population value. Also note that the task pane includes a message that the visual style has been set successfully.
 
@@ -80,7 +80,7 @@ Figure 5 shows how the content pane appears when the View tiled populations butt
 
 Figure 5. The tiled populations view.
 
-![Figure 5](/description/CG_XLDataVis_fig05.gif)
+![Tiled populations view](/description/CG_XLDataVis_fig05.gif "Figure 4. The tiled populations view with a callout showing the population of the USA.")
 
 <a name="troubleshooting"></a>
 **Troubleshooting**
