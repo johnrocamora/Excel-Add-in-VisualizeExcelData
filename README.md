@@ -1,4 +1,7 @@
 # Excel-Add-in-VisualizeExcelData
+
+>**Note:**  We will be removing this sample from the site on November 30, 2016. If you’d like to keep a copy of this sample for your own reference, please download or clone the repo.
+
 Sample shows how to create data visualizations in an Excel content add-in from table data in a spreadsheet
 
 The Office sample includes a task pane add-in and a content add-in. It also includes an Excel workbook, PopulationVisualization.xlsx, that contains sample data.
